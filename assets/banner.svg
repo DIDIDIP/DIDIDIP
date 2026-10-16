@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="DIDI - 3D Game Animator">
+  <style>
+    .s { font-family: 'Segoe UI', 'Pretendard', 'Noto Sans KR', Arial, sans-serif; }
+    .m { font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e2350"/>
+      <stop offset="0.55" stop-color="#3b2a6b"/>
+      <stop offset="1" stop-color="#145a6e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.45">
+      <stop offset="0" stop-color="#ffb36b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffb36b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ball" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#ff5f8f"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9be8ff"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="900" height="320" rx="16" fill="url(#grid)"/>
+  <rect width="900" height="320" rx="16" fill="url(#glow)"/>
+
+  <!-- 소개 글 -->
+  <g class="s">
+    <text x="48" y="78" fill="#9be8ff" font-size="16" font-weight="600" letter-spacing="3">HELLO, WORLD — I'M</text>
+    <text x="46" y="140" fill="url(#title)" font-size="60" font-weight="800">DIDI</text>
+    <text x="48" y="180" fill="#ffffff" font-size="24" font-weight="600">3D Game Animator</text>
+    <text x="48" y="208" fill="#ffd27a" font-size="17" font-weight="500">→ becoming a Game Animation Developer</text>
+  </g>
+  <g class="m" font-size="13">
+    <rect x="48" y="226" width="118" height="24" rx="12" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="107" y="242" text-anchor="middle" fill="#ffffff">Unreal Engine 5</text>
+    <rect x="174" y="226" width="78" height="24" rx="12" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="213" y="242" text-anchor="middle" fill="#ffffff">3ds Max</text>
+    <rect x="260" y="226" width="70" height="24" rx="12" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="295" y="242" text-anchor="middle" fill="#ffffff">Python</text>
+  </g>
+
+  <!-- 바운싱 볼: 애니메이션의 기본 연습 (찌그러짐과 늘어남) -->
+  <line x1="600" y1="232" x2="840" y2="232" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"/>
+  <ellipse cx="720" cy="234" rx="14" ry="4" fill="#000000" fill-opacity="0.35">
+    <animate attributeName="rx" values="12;30;12" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.15;0.45;0.15" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="720" cy="90" rx="24" ry="28" fill="url(#ball)">
+    <animate attributeName="cy" values="76;200;214;200;76" keyTimes="0;0.45;0.5;0.55;1" calcMode="spline"
+             keySplines="0.55 0 1 0.45; 0 0 1 1; 0 0 1 1; 0 0.55 0.45 1" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="24;21;33;21;24" keyTimes="0;0.45;0.5;0.55;1" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="26;32;18;32;26" keyTimes="0;0.45;0.5;0.55;1" dur="1.2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- 타임라인 -->
+  <rect x="40" y="266" width="820" height="34" rx="8" fill="#000000" fill-opacity="0.28"/>
+  <g stroke="#ffffff" stroke-opacity="0.25">
+    <path d="M60 290v6M80 290v6M100 290v6M120 290v6M140 290v6M160 290v6M180 290v6M200 290v6M220 290v6M240 290v6M260 290v6M280 290v6M300 290v6M320 290v6M340 290v6M360 290v6M380 290v6M400 290v6M420 290v6M440 290v6M460 290v6M480 290v6M500 290v6M520 290v6M540 290v6M560 290v6M580 290v6M600 290v6M620 290v6M640 290v6M660 290v6M680 290v6M700 290v6M720 290v6M740 290v6M760 290v6M780 290v6M800 290v6M820 290v6M840 290v6"/>
+  </g>
+  <g class="m" font-size="10" fill="#ffffff" fill-opacity="0.55">
+    <text x="60" y="284" text-anchor="middle">0</text>
+    <text x="260" y="284" text-anchor="middle">12</text>
+    <text x="460" y="284" text-anchor="middle">24</text>
+    <text x="660" y="284" text-anchor="middle">36</text>
+    <text x="840" y="284" text-anchor="middle">48</text>
+  </g>
+  <g fill="#ffd27a">
+    <path d="M60 287l5 5-5 5-5-5z"/><path d="M255 287l5 5-5 5-5-5z"/><path d="M450 287l5 5-5 5-5-5z"/><path d="M645 287l5 5-5 5-5-5z"/><path d="M840 287l5 5-5 5-5-5z"/>
+  </g>
+  <g>
+    <line x1="60" y1="268" x2="60" y2="300" stroke="#ff5f8f" stroke-width="2"/>
+    <path d="M54 268h12l-6 7z" fill="#ff5f8f"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;780 0" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+</svg>

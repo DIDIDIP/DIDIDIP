@@ -1,68 +1,72 @@
 <div align="center">
 
-<img src="assets/terminal.svg" alt="didi@physical-ai terminal" width="100%"/>
+<img src="assets/banner.svg" alt="DIDI - 3D Game Animator" width="100%"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/STATUS-BUILDING-3fb950?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/FOCUS-PHYSICAL_AI-58a6ff?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/K--DIGITAL-2026-bc8cff?style=flat-square&labelColor=0d1117"/>
+<a href="https://youtu.be/Ujm-raGQAVI"><img src="https://img.shields.io/badge/Animation_Reel-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+<a href="https://www.youtube.com/@bluedip5670"><img src="https://img.shields.io/badge/YouTube-@bluedip5670-ff5f8f?style=for-the-badge&logo=youtube&logoColor=white&labelColor=3b2a6b"/></a>
+<a href="https://github.com/DIDIDIP"><img src="https://img.shields.io/badge/GitHub-DIDIDIP-9be8ff?style=for-the-badge&logo=github&logoColor=white&labelColor=1e2350"/></a>
 
 </div>
 
-```bash
-$ cat about.md
-```
+## 🎬 About Me
 
-- 🤖 카메라로 보고, 손으로 움직이는 **Physical AI**를 공부하고 있어요
-- 👁️ 손·얼굴·제스처 인식부터 실시간 객체 탐지까지, **비전 AI**로 실험 중
-- 🎮 배운 걸 바로 써먹으려고 **작은 게임과 웹 서비스**를 만들어요
-- 🔧 다음 목표: 비전 모델 + **아두이노**로 진짜 움직이는 것 만들기
+> **키프레임 하나하나로 캐릭터에 생명을 넣던 3D 애니메이터가, 이제 코드로 직접 움직임을 만듭니다.**
 
-```bash
-$ ls ./stack
-```
+- 🕹️ **3D 게임 애니메이터**: 게임 캐릭터의 움직임을 만들어 왔어요
+- 🛠️ **게임 애니메이터 개발**로 영역을 넓히는 중: 애니메이션 감각 + 프로그래밍
+- 🐍 **Python 미니 앱**을 만들면서 작업을 편하게 해 줄 도구를 직접 만들어 보고 있어요
+- 🌱 지금은 K-Digital 피지컬AI 과정에서 Python과 비전 AI를 배우고 있어요
+
+## 🎞️ Portfolio
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/Ujm-raGQAVI"><img src="https://img.youtube.com/vi/Ujm-raGQAVI/maxresdefault.jpg" alt="3D Game Animation Reel 2023" width="100%"/></a>
+      <br/><b>▶ 3D Game Animation Reel 2023</b>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/YP4tUX21rO8"><img src="https://img.youtube.com/vi/YP4tUX21rO8/maxresdefault.jpg" alt="3D game animation reel Rememento" width="100%"/></a>
+      <br/><b>▶ 3D Game Animation Reel · Rememento</b>
+    </td>
+  </tr>
+</table>
+
+## 🧰 Tools
 
 <p>
-<img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=FFD43B"/>
-<img src="https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8"/>
-<img src="https://img.shields.io/badge/MediaPipe-0d1117?style=for-the-badge&logo=google&logoColor=00A6FF"/>
-<img src="https://img.shields.io/badge/YOLO-0d1117?style=for-the-badge&logo=ultralytics&logoColor=0B23A9"/>
-<img src="https://img.shields.io/badge/Arduino-0d1117?style=for-the-badge&logo=arduino&logoColor=00979D"/>
-<br/>
-<img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
-<img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E"/>
-<img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032"/>
+<img src="https://img.shields.io/badge/Unreal_Engine_5-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white"/>
+<img src="https://img.shields.io/badge/3ds_Max-0696D7?style=for-the-badge&logo=autodesk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B"/>
 </p>
 
-```bash
-$ ls ./projects --sort=latest
-```
+## 🚀 Projects
 
-| 프로젝트 | 설명 | 실행 |
+### 🎮 게임 애니메이터 개발
+| 작업 | 내용 | 보기 |
 |---|---|---|
-| 🐱 [cat-dream-story](https://github.com/DIDIDIP/cat-dream-story) | 딱 세 번의 선택으로 아침을 맞는 고양이 꿈 선택지 게임 | [▶ play](https://dididip.github.io/cat-dream-story/) |
-| ✋ [palm-reading-ai](https://github.com/DIDIDIP/palm-reading-ai) | 사진 한 장으로 보는 손금 운세 웹 서비스 | [▶ open](https://dididip.github.io/palm-reading-ai/) |
-| 🖐️ [mediapipe-hand-landmarker](https://github.com/DIDIDIP/mediapipe-hand-landmarker) | MediaPipe 손 랜드마크 웹캠 데모 | `python` |
-| 🔌 [arduino-shop](https://github.com/DIDIDIP/arduino-shop) | 아두이노 & 전자부품 쇼핑몰 데모 (Next.js + Supabase) | `next` |
-| 🍉 [fruit-merge-game](https://github.com/DIDIDIP/fruit-merge-game) | 과일 합치기 퍼즐 웹 게임 | [▶ play](https://dididip.github.io/fruit-merge-game/) |
-| 🍎 [apple-catch-game](https://github.com/DIDIDIP/apple-catch-game) | 사과 받기 웹 게임 | [▶ play](https://dididip.github.io/apple-catch-game/) |
+| 🎬 3D Game Animation Reel 2023 | 3D 게임 캐릭터 애니메이션 모음 | [▶ YouTube](https://youtu.be/Ujm-raGQAVI) |
+| 🎬 Rememento Animation Reel | 3D 게임 애니메이션 릴 「Rememento」 | [▶ YouTube](https://youtu.be/YP4tUX21rO8) |
 
-```bash
-$ git log --stat
-```
+### 🐍 Mini App for Python
+| 프로젝트 | 내용 | 보기 |
+|---|---|---|
+| 🐱 [cat-dream-story](https://github.com/DIDIDIP/cat-dream-story) | 딱 세 번의 선택으로 아침을 맞는 고양이 꿈 선택지 게임 (tkinter) | [▶ play](https://dididip.github.io/cat-dream-story/) |
+| 🖐️ [mediapipe-hand-landmarker](https://github.com/DIDIDIP/mediapipe-hand-landmarker) | 웹캠으로 손 관절 21개를 따라가는 MediaPipe 데모 | `python` |
+
+<sub>그 밖의 작은 웹 게임: [🍉 과일 합치기](https://dididip.github.io/fruit-merge-game/) · [🍎 사과 받기](https://dididip.github.io/apple-catch-game/) · [✋ 손금 운세](https://dididip.github.io/palm-reading-ai/)</sub>
+
+## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DIDIDIP&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=c9d1d9&count_private=true"/>
-<img height="165" src="https://streak-stats.demolab.com?user=DIDIDIP&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3fb950&fire=3fb950&currStreakLabel=3fb950"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DIDIDIP&show_icons=true&hide_border=true&bg_color=30,1e2350,3b2a6b,145a6e&title_color=ffd27a&icon_color=9be8ff&text_color=ffffff&count_private=true"/>
+<img height="165" src="https://streak-stats.demolab.com?user=DIDIDIP&hide_border=true&background=3b2a6b&ring=ffd27a&fire=ff5f8f&currStreakNum=ffffff&currStreakLabel=ffd27a&sideNums=ffffff&sideLabels=9be8ff&dates=dddddd&stroke=ffffff33"/>
 </div>
 
 <div align="center">
 
-```text
-> while (alive) { learn(); build(); commit(); }
-```
+<sub>🎞️ <i>Keyframe by keyframe, line by line.</i></sub>
 
 </div>
