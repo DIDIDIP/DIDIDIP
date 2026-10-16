@@ -61,7 +61,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DIDIDIP&show_icons=true&hide_border=true&bg_color=30,1e2350,3b2a6b,145a6e&title_color=ffd27a&icon_color=9be8ff&text_color=ffffff&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DIDIDIP&show_icons=true&hide_border=true&bg_color=30,1e2350,3b2a6b,145a6e&title_color=ffd27a&icon_color=9be8ff&text_color=ffffff&count_private=true&custom_title=DIDI%27s%20GitHub%20Stats"/>
 <img height="165" src="https://streak-stats.demolab.com?user=DIDIDIP&hide_border=true&background=3b2a6b&ring=ffd27a&fire=ff5f8f&currStreakNum=ffffff&currStreakLabel=ffd27a&sideNums=ffffff&sideLabels=9be8ff&dates=dddddd&stroke=ffffff33"/>
 </div>
 
